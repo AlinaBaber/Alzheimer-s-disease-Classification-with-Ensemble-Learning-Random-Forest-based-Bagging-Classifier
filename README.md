@@ -33,12 +33,12 @@ The dataset used in this project is obtained from clinical records and contains 
 The dataset is stored in an Excel file with multiple sheets and is preprocessed before training models.
 
 ## Project Structure:
-
+```bash
 ├── dataset/
 │   ├── CSI_7_MAL_2324_CW_resit_data.xlsx  # Dataset file
 ├── Alzheimer_disease_Classification.ipynb # Jupyter notebook with the full analysis and code
 └── README.md
-                          
+```                          
 ## Installation
 
 To run this project locally, you'll need to install the required dependencies.
@@ -48,18 +48,18 @@ To run this project locally, you'll need to install the required dependencies.
 ```bash
 git clone https://github.com/yourusername/Alzheimer-s-disease-Classification-with-Ensemble-Learning-Random-Forest-based-Bagging-Classifier.git
 cd Alzheimer-s-disease-Classification-with-Ensemble-Learning-Random-Forest-based-Bagging-Classifier
-
+```
 ### Install dependencies:
 ```bash
 pip install -r requirements.txt
 Note: The project uses Python 3.x.
-
+```
 ### Usage
 Open the Jupyter notebook:
 ```bash
 jupyter notebook Alzheimer_disease_Classification.ipynb
 Follow the instructions in the notebook to load the dataset, preprocess the data, and train machine learning models.
-
+```
 ## Modeling Approach
 The project applies several machine learning models, focusing on ensemble learning, to classify Alzheimer's disease:
 

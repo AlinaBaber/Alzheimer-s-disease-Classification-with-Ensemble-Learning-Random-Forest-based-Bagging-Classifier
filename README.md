@@ -32,7 +32,8 @@ The dataset used in this project is obtained from clinical records and contains 
 
 The dataset is stored in an Excel file with multiple sheets and is preprocessed before training models.
 
-## Project Structure
+## Project Structure:
+
 ├── dataset/
 │   ├── CSI_7_MAL_2324_CW_resit_data.xlsx  # Dataset file
 ├── Alzheimer_disease_Classification.ipynb # Jupyter notebook with the full analysis and code
@@ -49,8 +50,7 @@ git clone https://github.com/yourusername/Alzheimer-s-disease-Classification-wit
 cd Alzheimer-s-disease-Classification-with-Ensemble-Learning-Random-Forest-based-Bagging-Classifier
 
 ### Install dependencies:
-bash
-Copy code
+```bash
 pip install -r requirements.txt
 Note: The project uses Python 3.x.
 

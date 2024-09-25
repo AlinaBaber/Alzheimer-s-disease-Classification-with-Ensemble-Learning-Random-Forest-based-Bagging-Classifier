@@ -38,7 +38,8 @@ The dataset is stored in an Excel file with multiple sheets and is preprocessed 
 ├── dataset/
 │   ├── CSI_7_MAL_2324_CW_resit_data.xlsx  # Dataset file
 ├── Alzheimer_disease_Classification.ipynb # Jupyter notebook with the full analysis and code
-└── README.md                              # Project documentation
+└── README.md
+                          
 ## Installation
 
 To run this project locally, you'll need to install the required dependencies.

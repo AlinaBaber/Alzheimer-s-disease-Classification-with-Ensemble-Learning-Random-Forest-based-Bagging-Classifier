@@ -33,8 +33,6 @@ The dataset used in this project is obtained from clinical records and contains 
 The dataset is stored in an Excel file with multiple sheets and is preprocessed before training models.
 
 ## Project Structure
-
-```bash
 ├── dataset/
 │   ├── CSI_7_MAL_2324_CW_resit_data.xlsx  # Dataset file
 ├── Alzheimer_disease_Classification.ipynb # Jupyter notebook with the full analysis and code

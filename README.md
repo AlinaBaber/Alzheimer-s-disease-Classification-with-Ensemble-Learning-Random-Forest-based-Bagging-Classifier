@@ -22,7 +22,33 @@ The key objectives of this project are:
 - To preprocess and clean the dataset.
 - To explore and analyze feature importance.
 - To build and evaluate multiple machine learning models, with a focus on Random Forest-based Bagging.
+## Features
 
+- Predicts different stages of Alzheimer's disease using machine learning models.
+- Preprocessing steps including data cleaning, normalization, and feature selection.
+- Exploratory Data Analysis (EDA) to visualize trends and patterns.
+- Model evaluation using metrics like accuracy, precision, recall, and F1-score.
+- Cross-validation for performance robustness.
+
+## Dataset
+
+The dataset used for Alzheimer's classification includes patient demographic, medical, and cognitive test results. The data has been preprocessed to remove outliers and handle missing values.
+
+### Target Labels
+- **0**: Cognitively Normal
+- **1**: Mild Cognitive Impairment
+- **2**: Alzheimer's Disease
+
+## Model Architecture
+
+Several machine learning algorithms have been implemented for the classification task, including:
+- **Bagging Classifier**
+- **Random Forest Classifier**
+- **Support Vector Machine (SVM)**
+- **K-Nearest Neighbors (KNN)**
+- **Logistic Regression**
+
+The final model selection is based on the best-performing classifier in terms of accuracy and other evaluation metrics.
 ## Dataset
 
 The dataset used in this project is obtained from clinical records and contains multiple sheets:
